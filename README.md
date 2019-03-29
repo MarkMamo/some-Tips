@@ -39,13 +39,13 @@ git stash pop stash@{0}
 
 
 git自动补全功能
-	1、下载git代码库：
-		git clone https://github.com/git/git.git
-	2、创建~/.git-completion.bash：
-		cp git/contrib/completion/git-completion.bash ~/.git-completion.bash
-	3、修改~/.bash_profile（没有则创建）
-		vim ~/.bashrc
-		添加如下内容：
-		source ~/.git-completion.bash
-	4、重启终端 
+1、下载git代码库：
+	git clone https://github.com/git/git.git
+2、创建~/.git-completion.bash：
+	cp git/contrib/completion/git-completion.bash ~/.git-completion.bash
+3、修改~/.bash_profile（没有则创建）
+	vim ~/.bashrc
+	添加如下内容：
+	source ~/.git-completion.bash
+4、重启终端
 
